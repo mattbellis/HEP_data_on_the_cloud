@@ -5,6 +5,7 @@ Helpful links?
 The following code was the first cell in Google_Cloud_File_Test.ipynb (I believe it is shared with you)
 It installs Pydrive onto a Colab notebook and asks the user for authentification
 
+```
 !pip install -U -q Pydrive
 import os
 from pydrive.auth import GoogleAuth
@@ -16,6 +17,7 @@ auth.authenticate_user()
 gauth = GoogleAuth()
 gauth.credentials = GoogleCredentials.get_application_default()
 drive = GoogleDrive(gauth)
+```
 
 This code builds a drive API client, which allows you to use functions (differentiating between functions and methods is going to be a pain because I'm taking Data Structures, and working on this at the same time) from the Google Drive API
 
