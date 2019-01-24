@@ -23,10 +23,14 @@ This code builds a drive API client, which allows you to use functions (differen
 
 
 This line uses the drive command gsutil to list all the files within the bucket we stored in Google Cloud, called babar_data_test
+```
 !gsutil ls gs://babar_data_test
-
+```
 This line copies the data from babar_data_test so the user can use it in a Colab notebook
+
+```
 !gsutil cp -r gs://babar_data_test .
+```
 
 The rest of the code that wasn't listing out files was the same importing h5hep and the pps_tools like the activities for PPP
 
