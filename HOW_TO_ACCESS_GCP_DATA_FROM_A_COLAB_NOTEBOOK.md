@@ -35,3 +35,17 @@ This line copies the data from babar_data_test so the user can use it in a Colab
 The rest of the code that wasn't listing out files was the same importing h5hep and the pps_tools like the activities for PPP
 
 Helpful link: https://colab.research.google.com/notebooks/io.ipynb#scrollTo=eDLm7MHQEr2U
+
+# Accessing GCP files without downloaded them to the Colab environment. 
+
+Is [this](https://stackoverflow.com/questions/49021464/interface-between-google-colaboratory-and-google-cloud) a way to do it? 
+
+
+# Google Drive
+This is not Google Cloud storage, but still relevant. 
+
+https://stackoverflow.com/questions/46986398/import-data-into-google-colaboratory
+
+Not sure if we're mounting the whole drive right now, or just a folder. 
+
+
