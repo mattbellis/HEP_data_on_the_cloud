@@ -36,6 +36,11 @@ The rest of the code that wasn't listing out files was the same importing h5hep 
 
 Helpful link: https://colab.research.google.com/notebooks/io.ipynb#scrollTo=eDLm7MHQEr2U
 
+# Example of accessing and running over data on Google Cloud Storage from Colab
+
+[Relevant Colab notebook](https://colab.research.google.com/drive/12Hk9fa4zS8qT75G0ciiDFfn0LLdpGIzW)
+
+
 # Accessing GCP files without downloaded them to the Colab environment. 
 
 Is [this](https://stackoverflow.com/questions/49021464/interface-between-google-colaboratory-and-google-cloud) a way to do it? 
