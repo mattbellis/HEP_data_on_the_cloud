@@ -9,3 +9,6 @@ To-do
 * 1a) Maybe upload a small bit of data from BaBar to Drive to see if it works?
 * 2) Also, it gave me an error -> 'GoogleDrive' object has no attribute 'mount'. Maybe I missed something?
 
+#Updates (2/3/2019):
+* I was checking the web to see if I could adapt the code for mounting data from google drive to mounting data from google cloud by using gsutil commands, and after scouring stackexchange as well as Pydrive's API, I feel like I'm onto something, but I'm too focused at the moment to find it (cf losing something important and then finding it in plain sight sometime later)
+* I shared the colab notebook chronicling my preliminary efforts to try mounting data from google cloud
