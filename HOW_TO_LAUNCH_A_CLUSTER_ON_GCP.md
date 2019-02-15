@@ -11,4 +11,6 @@ https://cloud.google.com/dataproc/docs/guides/manage-cluster for managing said c
 
 https://cloud.google.com/compute/docs/quickstart-linux
 
+Need to learn this first. I need to make sure I'm very careful about the options. 
+
 
