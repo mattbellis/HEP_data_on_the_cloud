@@ -4,16 +4,16 @@
 
 * Take the code we worked on where we download a file and keep all that code there, but.....set up a new section
 in the notebook (or a new notebook) were we 
-** Get the list of files in a bucket
-** Download them one at a time
-** Process them after we've downloaded them
-** Delete them after we've processed them
-** Display the plots of what we've processed. For example, get the muon momenta for all events? Or construct
+  * Get the list of files in a bucket
+  * Download them one at a time
+  * Process them after we've downloaded them
+  * Delete them after we've processed them
+  * Display the plots of what we've processed. For example, get the muon momenta for all events? Or construct
 some invariant mass of the two muons for all events. 
 
 * Get the zeroth order cluster examples running
-** Let's get an HTCondor cluster launched! 
-** https://cloud.google.com/solutions/high-throughput-computing-htcondor
+  * Let's get an HTCondor cluster launched! 
+  * https://cloud.google.com/solutions/high-throughput-computing-htcondor
 
   
 
