@@ -38,6 +38,13 @@ sudo apt-get install git
 ```
 Select *[Y]* when the option comes up. 
 
+## Deploy
+
+Note that after you've run the ```gcloud deployment-manager...``` command, you can see the nodes on 
+your Google Dashboard. 
+
+
+
 
 
 
