@@ -66,9 +66,15 @@ Did you mean zone [us-east1-b] for instance: [condor-submit] (Y/n)?
 
 Doesn't seem to actually run the jobs. That is, there is no output files as per the example???
 
+Try the above again, but launch a centos VM and edit the startup condor file to reflect
+the timezone and centos version and the condor version. 
+
+
 Should we look at the genomics API?
 
 https://cloud.google.com/genomics/docs/quickstart
+
+
 
 
 
