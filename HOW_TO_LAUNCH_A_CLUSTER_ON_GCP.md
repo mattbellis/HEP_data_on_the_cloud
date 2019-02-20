@@ -11,6 +11,11 @@ I think these are the instructions on how to launch an HTCondor instance.
 
 https://cloud.google.com/solutions/high-throughput-computing-htcondor
 
+Maybe should be working with the Github repo?
+
+https://github.com/GoogleCloudPlatform/deploymentmanager-samples/tree/master/examples/v2/htcondor
+
+
 # Will have to ssh in to a VM
 
 https://cloud.google.com/compute/docs/quickstart-linux
