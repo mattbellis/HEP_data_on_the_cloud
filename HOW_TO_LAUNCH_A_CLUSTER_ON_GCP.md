@@ -43,6 +43,20 @@ Select *[Y]* when the option comes up.
 Note that after you've run the ```gcloud deployment-manager...``` command, you can see the nodes on 
 your Google Dashboard. 
 
+When you run the 
+
+```
+gcloud compute ssh condor-submit
+``` 
+
+command, don't enter a passphrase and select *n* for no when it asks
+
+```
+Did you mean zone [us-east1-b] for instance: [condor-submit] (Y/n)? 
+```
+
+
+
 
 
 
