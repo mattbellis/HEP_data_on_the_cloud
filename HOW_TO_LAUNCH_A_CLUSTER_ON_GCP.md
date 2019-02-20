@@ -57,6 +57,14 @@ Did you mean zone [us-east1-b] for instance: [condor-submit] (Y/n)?
 
 
 
+# ISSUES
+
+Doesn't seem to actually run the jobs. That is, there is no output files as per the example???
+
+Should we look at the genomics API?
+
+https://cloud.google.com/genomics/docs/quickstart
+
 
 
 
