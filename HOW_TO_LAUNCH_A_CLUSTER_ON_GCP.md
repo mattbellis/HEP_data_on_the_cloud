@@ -32,8 +32,11 @@ https://cloud.google.com/solutions/high-throughput-computing-htcondor
 
 ## Need to install git first. 
 
-https://stackoverflow.com/questions/27460923/how-to-install-git-in-google-compute-engine
-
+```
+sudo apt-get update
+sudo apt-get install git
+```
+Select *[Y]* when the option comes up. 
 
 
 
