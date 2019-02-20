@@ -69,6 +69,11 @@ Doesn't seem to actually run the jobs. That is, there is no output files as per 
 Try the above again, but launch a centos VM and edit the startup condor file to reflect
 the timezone and centos version and the condor version. 
 
+Want to try this again, but editing the condor.jinja to import the shell scripts, a la
+
+https://github.com/GoogleCloudPlatform/deploymentmanager-samples/blob/master/examples/v2/htcondor/condor.jinja.schema
+
+
 
 Should we look at the genomics API?
 
