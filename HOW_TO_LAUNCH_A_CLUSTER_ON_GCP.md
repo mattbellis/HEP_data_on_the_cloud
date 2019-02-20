@@ -18,8 +18,23 @@ https://cloud.google.com/compute/docs/quickstart-linux
 Make sure you follow this closely. If it works, you have a window that pops up thatI think
 is already ssh'ed into the instance. 
 
+***IMPORTANT!*** Select **Allow all access to Cloud APIs**
+
+
 Might want to look at [this](https://cloud.google.com/compute/docs/instances/transfer-files) to see how to transfer
 files into the instance. 
 
-# 
+# Install the test files
+
+Following this
+
+https://cloud.google.com/solutions/high-throughput-computing-htcondor
+
+## Need to install git first. 
+
+https://stackoverflow.com/questions/27460923/how-to-install-git-in-google-compute-engine
+
+
+
+
 
