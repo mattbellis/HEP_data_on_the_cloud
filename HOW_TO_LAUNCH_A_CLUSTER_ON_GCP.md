@@ -115,5 +115,23 @@ resources:
 
 ```
 
+Here's an example of a slurm script that works to run 3 jobs. 
+```
+#!/bin/bash
+#
+#SBATCH --job-name=hostname_sleep_sample
+#SBATCH --output=out2_%j.txt
+#
+#SBATCH --nodes=1
+#SBATCH --time=2
+#SBATCH --array=0-2
+python test.py
+sleep 60
+```
+
+More on ```array``` is here:
+
+https://github.com/statgen/SLURM-examples#many-jobs
+
 
 
