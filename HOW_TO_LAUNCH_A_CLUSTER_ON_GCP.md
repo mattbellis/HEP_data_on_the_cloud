@@ -89,8 +89,31 @@ https://cloud.google.com/blog/products/gcp/easy-hpc-clusters-on-gcp-with-slurm
 https://github.com/SchedMD/slurm/tree/slurm-17.11/contribs/gcp
 
 When I try this, slurm never seems to get installed. 
+Fixed! I needed the right slurm version. Here's the slurm-config.yml file
 
+```
+mports:
+- path: slurm.jinja
+resources:
+- name: slurm-cluster
+  type: slurm.jinja
+  properties:
+    cluster_name            : google1
+    static_node_count       : 2
+    max_node_count          : 10
+    zone                    : us-east1-b
+    region                  : us-east1
+    cidr                    : 10.10.0.0/16
+    controller_machine_type : n1-standard-2
+    compute_machine_type    : n1-standard-2
+    login_machine_type      : n1-standard-1
+    slurm_version           : 18.08.5-2
+    default_account         : default
+    default_users           : mbellis
+    munge_key               : c29cff7346886ad79a9daf299b25eb0518e9fd0732d0fb175886da79ee3f32ca4a637dc656c18d1bae4a4
+36cdd8a57ec434c64f77988a68b762ecd1c7865f250
 
+```
 
 
 
