@@ -80,7 +80,15 @@ Should we look at the genomics API?
 https://cloud.google.com/genomics/docs/quickstart
 
 
+-------------------------------
 
+# Trying slurm
+
+https://cloud.google.com/blog/products/gcp/easy-hpc-clusters-on-gcp-with-slurm
+
+https://github.com/SchedMD/slurm/tree/slurm-17.11/contribs/gcp
+
+When I try this, slurm never seems to get installed. 
 
 
 
