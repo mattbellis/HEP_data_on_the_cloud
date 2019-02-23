@@ -134,4 +134,17 @@ More on ```array``` is here:
 https://github.com/statgen/SLURM-examples#many-jobs
 
 
+Also did this
 
+```
+[mbellis@login1 ~]$ cat test.sh 
+sudo pip install numpy
+python test.py
+````
+
+```
+[mbellis@login1 ~]$ cat test.py 
+import numpy as np
+print("Hello world!")
+print(np.random.random(10))
+```
