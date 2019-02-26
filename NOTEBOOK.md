@@ -42,3 +42,10 @@ client = storage.Client('My First Project')
 ```
 Saying that there was "No module named 'google.cloud.iam'"
 But, upon scouring (and trying to make some sense of) Google-Python APIs, I found [this](https://pypi.org/project/google-cloud-storage/), which is what you probably used to try copying the data over for this most current run. I tried running the code more akin to how it is listed in the link, to see if I could get the bucket, and then the blob, but I got an error there as well.
+
+
+# Updates (2/26/2019)
+
+* Managed to download data from a Google Cloud bucket, and then delete it after it's processed
+* Processed that data, and then displayed it (eg- making a histogram of the invariant mass of a D meson)
+
