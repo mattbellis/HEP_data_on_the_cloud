@@ -19,4 +19,9 @@ Here's how to make the data public.
 
 https://cloud.google.com/storage/docs/access-control/making-data-public
 
+Had to use the Legacy options for Legacy Object Reader
+
+https://cloud.google.com/storage/docs/access-control/iam-roles#legacy-roles
+
+
 
