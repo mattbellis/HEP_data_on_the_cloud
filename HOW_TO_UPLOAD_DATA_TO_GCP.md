@@ -14,3 +14,9 @@ https://cloud.google.com/storage/docs/uploading-objects A written tutorial about
 https://cloud.google.com/solutions/transferring-big-data-sets-to-gcp Guide for large data sets (probably what we need for BaBar)
 
 The hello world example from HOW_DO_WE_RUN_ON_GC_ENGINE (linked here: https://cloud.google.com/appengine/docs/standard/python/quickstart) is probably a basic example, even if it uses the App Engine. It shouldn't be too hard to adapt it for data sets
+
+Here's how to make the data public.
+
+https://cloud.google.com/storage/docs/access-control/making-data-public
+
+
